@@ -4,7 +4,7 @@ Terraform automation script that creates a full VPC environment (VPC, Public/Pri
 
 # Instructions/Details
 
-1. Run the "main.tf" script in Terraform. The scrip will create the following resources in your AWS account;
+1. Run the "main.tf" script in Terraform. The script will create the following resources in your AWS account;
 
   - A VPC in us-east-1, w/ a CIDR block of 10.0.0.0/16. (region & CIDR block can be changed within code)
   - Internet & NAT Gateway.
