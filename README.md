@@ -14,7 +14,7 @@ Terraform automation script that creates a full VPC environment (VPC, Public/Pri
     - Private routing table, with route to NAT Gateway that is created within script.
     - Route table association between Public Subnet & Public Routing table.
     - Route table association between Private Subnet & Private Routing table.
-    - Security group for Public instances, with ports 22 & 80 open.
+    - Security group for Public instances, with ports 22, 80, & 443 open.
     - Public instance which launches in the created Public Subnet w/ Amazon linux 2 AMI & t2.micro instance type (these can parameters can also be changed within the code). Also contains a User data script, which will automatically install updates, mariadb, php 7.2, httpd, and Wordpress (also modifies test.php file, changes "wordpress" file in html directory to "blog", as well as changes "wp-config-sample.php" to "wp-config.php").
     - An elastic IP which attaches to the Webserver/Public instance.
     - Private/Database instance which launched in the created Private Subnet 2/ Amazon Linux 2 AMI & t2.micro instance type (again, these can parameters can also be changed within the code). It is also not currently configured with any security group or user data script.
