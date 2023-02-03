@@ -31,4 +31,4 @@ Terraform automation script that creates a full VPC environment (VPC, Public/Pri
 
 Create an FTP server:
 
-    - https://silicondales.com/tutorials/aws-ec2/setup-ftp-sftp/
+  - https://silicondales.com/tutorials/aws-ec2/setup-ftp-sftp/
