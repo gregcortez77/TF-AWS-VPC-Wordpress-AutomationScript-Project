@@ -25,3 +25,10 @@ Terraform automation script that creates a full VPC environment (VPC, Public/Pri
     
 3. Once completed, you can now access your Wordpress site, and continue setup/installation from there. To access your Wordpress/blog site, use the URL below;
     - http://ec2-50-17-15-27.compute-1.amazonaws.com/blog (Use your public DNS name)
+    
+
+# Additional Info
+
+Create an FTP server:
+
+https://silicondales.com/tutorials/aws-ec2/setup-ftp-sftp/
